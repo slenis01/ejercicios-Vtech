@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ejercicio2</title>
+
+</head>
+ 
+<body>
+<script>
+// depuracion del vector
+var arreglodado = ["unacadena",3,9,1,10,500,1,10,true];
+var array_n = [];
+
+for(var k = 0; k < arreglodado.length; k++){
+    if(typeof arreglodado[k] == 'number'){
+        
+  array_n.push(arreglodado[k])
+    }
+else{
+
+}
+}
+
+
+// aplicacion del metodo de la burbuja	
+    for(var i = 0; i < array_n.length; i++){
+        for(var j = 0; j < ( array_n.length - i -1 ); j++){
+            if(array_n[j] > array_n[j+1]){
+                var temp = array_n[j]
+                array_n[j] = array_n[j + 1]
+                array_n[j+1] = temp
+            }
+        }
+    }
+
+    console.log(array_n);
+
+</script>
+
+</body>
+
+</html>
