@@ -21,9 +21,24 @@ if(this.nombre = "pato"){
     
 }
 
-const desconocido = new animal("Pato",36,"Pato","cuak");
+const desconocido = new Animal("Pato",36,"Pato","cuak");
 console.log(desconocido.sonido);
+console.log(desconocido.ruido());
 
-console.log(desconocido.ruido())
-const otro = new animal("perro",7,"canino","guau guau")*/
+/*let array2 = ["Juan", "checho", "yisas", "Daniel"]
+for(let x = 0; x < array2.length; x++){
+    Math.random*10[x]
+    console.log(array2[x])
+}*/
 
+carritoDeHelados=false;
+
+estadoDeLaCasa='en llamas'
+
+if (!(carritoDeHelados || estadoDeLaCasa === 'en llamas')) {
+
+  console.log('Es mejor que te quedes dentro de casa');
+
+} else {
+
+  console.log('Debes salir de la casa rápidamente.')}
