@@ -1,0 +1,238 @@
+html {
+    font-family: Hind;
+    color: #002B39;
+}
+
+h1, h2 {
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+}
+h4 {
+    font-size: 15px;
+    color: #fff;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+button {
+    color: #fff;
+    box-shadow: 0 9px 12px 0 rgba(153, 176, 190, 0.35);
+    background-image: linear-gradient(to top, #007fff, #00b1ff -10%);
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 45px 11px 46px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    height: 62px;
+}
+button:hover{
+    color: blue;
+    background: white;
+}
+
+body {
+    margin: 0;
+}
+
+#logoVenn {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+#seccion1 {
+    background-image: url("/img/Grupo 9213.webp");
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 800px;
+}
+
+#tarjeta {
+    padding-top: 18px;
+    height: 280px;
+    max-width: 700px;
+    box-shadow: 0 25px 35px 0 rgba(26, 72, 100, 0.2);
+    border: solid 1px #dfeaf0;
+    background-image: linear-gradient(to bottom, #fff, #fff 76%, #f0faff);
+    margin: auto;
+    margin-top: 51px;
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 50px 30px;
+}
+
+#tarjeta >img{
+    width: 237px;
+    height: 237px;
+    display: inline;
+    grid-column: 1;
+    grid-row: 1 / -1;
+}
+
+#tarjeta > p{
+    grid-row: 3;
+    grid-column: 2 / -1;
+}
+#tarjeta >h3,#tarjeta >h5,.estrellas{
+    display: inline;
+}
+
+#tarjeta > h5{
+    grid-row: 2;
+    grid-column: 2;
+    margin: 0;
+}
+
+.estrellas{
+    grid-row: 2;
+    grid-column: 3;
+    max-height: 20px;
+}
+
+.boldtext{
+    font-weight: bolder;
+}
+
+
+
+#tarjetas {    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.tarjetaProductos{
+    
+    box-shadow: 0 25px 35px 0 rgba(26, 72, 100, 0.2);
+    border-radius: 2%;
+    background-image: linear-gradient(to bottom, #fff, #fff 76%, #f0faff);
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjetaProductos >img{
+    width: 237px;
+    height: 319px;
+}
+
+#partecirculitos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+
+}
+.parteIconos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numeros_circulitos{
+    width: 40px;
+}
+
+.iconos_circulitos{
+    width: 200px;        
+    margin-bottom: -24px;
+}
+
+
+#partecuadricula{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.intentoCuadricula{
+    display: flex; 
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.cuadrito-individual{
+    text-align: center;
+    justify-self: center;
+    border-radius: 10px ;
+    box-shadow: 0 20px 15px 0 rgb(26 72 100 / 10%) !important;
+    border: solid 1px #c3d5e0 ;
+    width: 280px;
+    height: 130px;
+}
+
+.cuadrito-individual:hover{   
+    border: solid 1px #007fff ;
+}
+
+.cuadrito-individual img{
+    margin: 22px 0 -16px 0 ;
+}
+
+#botonCrearCuenta{
+    margin-top: 50px;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: linear-gradient(to top, #007fff, #00b1ff -10%);
+    padding: 0 220px 0 220px;
+}
+
+.footernewimag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.socialmedia img{
+    margin: 10px;
+}
+
+.terminos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.terminos h4{    
+    margin-left: 10px;
+}
