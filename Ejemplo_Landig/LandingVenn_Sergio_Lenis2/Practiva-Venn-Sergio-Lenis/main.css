@@ -1,3 +1,4 @@
+html {
     font-family: Hind;
     color: #002B39;
 }
@@ -108,16 +109,6 @@ body {
     grid-row: 2;
     grid-column: 3;
     max-height: 20px;
-<<<<<<< HEAD
-=======
-}
-.cuadricula{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 600px;
-    margin: auto;
-    gap: 20px;
->>>>>>> ba3a1548e37e0b0646c555914194b46e767a0ac3
 }
 
 .boldtext{
